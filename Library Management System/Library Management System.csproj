@@ -1,0 +1,519 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FFB0ADE1-4E28-4FBD-9D78-61CA20D5CCAE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Library_Management_System</RootNamespace>
+    <AssemblyName>Library Management System</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.9.0.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
+      <HintPath>..\packages\Portable.BouncyCastle.1.9.0\lib\net40\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="bunifuDataviz 1.0.1">
+      <HintPath>..\..\..\..\Downloads\bunifuDataviz 1.0.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\..\..\Downloads\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="CircularProgressBar, Version=2.8.0.16, Culture=neutral, PublicKeyToken=310fd07b25df79b3, processorArchitecture=MSIL">
+      <HintPath>..\packages\CircularProgressBar.2.8.0.16\lib\net40\CircularProgressBar.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.0.9.7\lib\net45\LiveCharts.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.WinForms, Version=0.9.7.1, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.WinForms.0.9.7.1\lib\net45\LiveCharts.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.Wpf, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.Wpf.0.9.7\lib\net45\LiveCharts.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.5.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=3.1.11.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.3.1.11\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MimeKit, Version=3.0.0.0, Culture=neutral, PublicKeyToken=bede1c8a46c66814, processorArchitecture=MSIL">
+      <HintPath>..\packages\MimeKit.3.0.0\lib\net47\MimeKit.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.122.21.1, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <HintPath>..\packages\Oracle.ManagedDataAccess.21.4.0\lib\net462\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="ProgressBar, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ProgressBar.1.0.10\lib\ProgressBar.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.5.0.0\lib\net45\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Text.Encodings.Web, Version=5.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encodings.Web.5.0.1\lib\net461\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Json.5.0.2\lib\net461\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+    <Reference Include="WinFormAnimation, Version=1.6.0.4, Culture=neutral, PublicKeyToken=310fd07b25df79b3, processorArchitecture=MSIL">
+      <HintPath>..\packages\WinFormAnimation.1.6.0.4\lib\net40\WinFormAnimation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddBook.Designer.cs">
+      <DependentUpon>AddBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddForms\AddAutor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddForms\AddAutor.Designer.cs">
+      <DependentUpon>AddAutor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddForms\AddCategorie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddForms\AddCategorie.Designer.cs">
+      <DependentUpon>AddCategorie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddForms\AddEditura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddForms\AddEditura.Designer.cs">
+      <DependentUpon>AddEditura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddForms\AddFurnizor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddForms\AddFurnizor.Designer.cs">
+      <DependentUpon>AddFurnizor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPanel.Designer.cs">
+      <DependentUpon>AdminPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminUser.Designer.cs">
+      <DependentUpon>AdminUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\EditAutori.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\EditAutori.Designer.cs">
+      <DependentUpon>EditAutori.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\EditCarti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\EditCarti.Designer.cs">
+      <DependentUpon>EditCarti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\EditCategorii.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\EditCategorii.Designer.cs">
+      <DependentUpon>EditCategorii.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\EditCititori.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\EditCititori.Designer.cs">
+      <DependentUpon>EditCititori.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\EditEdituri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\EditEdituri.Designer.cs">
+      <DependentUpon>EditEdituri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\EditFurnizori.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\EditFurnizori.Designer.cs">
+      <DependentUpon>EditFurnizori.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\EditImprumut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\EditImprumut.Designer.cs">
+      <DependentUpon>EditImprumut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\EditRecenzie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\EditRecenzie.Designer.cs">
+      <DependentUpon>EditRecenzie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\EditRecenzori.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\EditRecenzori.Designer.cs">
+      <DependentUpon>EditRecenzori.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\EditScrie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\EditScrie.Designer.cs">
+      <DependentUpon>EditScrie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForgotPassword.Designer.cs">
+      <DependentUpon>ForgotPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StartApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartApp.Designer.cs">
+      <DependentUpon>StartApp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Signup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Signup.Designer.cs">
+      <DependentUpon>Signup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Admin_AllBooks.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Admin_AllBooks.Designer.cs">
+      <DependentUpon>Admin_AllBooks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Admin_BorrowedBooks.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Admin_BorrowedBooks.Designer.cs">
+      <DependentUpon>Admin_BorrowedBooks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Admin_Historic.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Admin_Historic.Designer.cs">
+      <DependentUpon>Admin_Historic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Admin_Home.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Admin_Home.Designer.cs">
+      <DependentUpon>Admin_Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Admin_Outstanding.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Admin_Outstanding.Designer.cs">
+      <DependentUpon>Admin_Outstanding.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Admin_Providers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Admin_Providers.Designer.cs">
+      <DependentUpon>Admin_Providers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Admin_Settings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Admin_Settings.Designer.cs">
+      <DependentUpon>Admin_Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Admin_Users.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Admin_Users.Designer.cs">
+      <DependentUpon>Admin_Users.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\User_AllBooks.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\User_AllBooks.Designer.cs">
+      <DependentUpon>User_AllBooks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\User_BorrowedBooks.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\User_BorrowedBooks.Designer.cs">
+      <DependentUpon>User_BorrowedBooks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\User_Home.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\User_Home.Designer.cs">
+      <DependentUpon>User_Home.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddBook.resx">
+      <DependentUpon>AddBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddForms\AddAutor.resx">
+      <DependentUpon>AddAutor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddForms\AddCategorie.resx">
+      <DependentUpon>AddCategorie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddForms\AddEditura.resx">
+      <DependentUpon>AddEditura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddForms\AddFurnizor.resx">
+      <DependentUpon>AddFurnizor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPanel.resx">
+      <DependentUpon>AdminPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminUser.resx">
+      <DependentUpon>AdminUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\EditAutori.resx">
+      <DependentUpon>EditAutori.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\EditCarti.resx">
+      <DependentUpon>EditCarti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\EditCategorii.resx">
+      <DependentUpon>EditCategorii.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\EditCititori.resx">
+      <DependentUpon>EditCititori.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\EditEdituri.resx">
+      <DependentUpon>EditEdituri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\EditFurnizori.resx">
+      <DependentUpon>EditFurnizori.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\EditImprumut.resx">
+      <DependentUpon>EditImprumut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\EditRecenzie.resx">
+      <DependentUpon>EditRecenzie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\EditRecenzori.resx">
+      <DependentUpon>EditRecenzori.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\EditScrie.resx">
+      <DependentUpon>EditScrie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForgotPassword.resx">
+      <DependentUpon>ForgotPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StartApp.resx">
+      <DependentUpon>StartApp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Signup.resx">
+      <DependentUpon>Signup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Admin_AllBooks.resx">
+      <DependentUpon>Admin_AllBooks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Admin_BorrowedBooks.resx">
+      <DependentUpon>Admin_BorrowedBooks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Admin_Historic.resx">
+      <DependentUpon>Admin_Historic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Admin_Home.resx">
+      <DependentUpon>Admin_Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Admin_Outstanding.resx">
+      <DependentUpon>Admin_Outstanding.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Admin_Providers.resx">
+      <DependentUpon>Admin_Providers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Admin_Settings.resx">
+      <DependentUpon>Admin_Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Admin_Users.resx">
+      <DependentUpon>Admin_Users.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\User_AllBooks.resx">
+      <DependentUpon>User_AllBooks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\User_BorrowedBooks.resx">
+      <DependentUpon>User_BorrowedBooks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\User_Home.resx">
+      <DependentUpon>User_Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Oracle.DataAccess.Common.Configuration.Section.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Oracle.ManagedDataAccess.Client.Configuration.Section.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="img\add_database_40px.png" />
+    <None Include="img\add_male_user_40px.png" />
+    <Content Include="img\add_user_male_40px.png" />
+    <Content Include="img\book%281%29.png" />
+    <Content Include="img\book.png" />
+    <None Include="img\verified_account_40px.png" />
+    <None Include="img\verified_account_64px.png" />
+    <None Include="img\books_30px.png" />
+    <Content Include="img\book_30px.png" />
+    <Content Include="img\book_75px.png" />
+    <None Include="img\book_reading_120px.png" />
+    <None Include="img\book_reading_120px_white.png" />
+    <Content Include="img\book_reading_30px.png" />
+    <Content Include="img\borrow_book_100px.png" />
+    <None Include="img\checked_user_male_32px.png" />
+    <Content Include="img\checked_user_male_40px.png" />
+    <None Include="img\close.png" />
+    <Content Include="img\cross-mark-on-a-black-circle-background%281%29.png" />
+    <None Include="img\delete_document_35px.png" />
+    <Content Include="img\delete_user_male_30px.png" />
+    <Content Include="img\exit_30px.png" />
+    <Content Include="img\exit_35px.png" />
+    <None Include="img\fast_cart_30px.png" />
+    <Content Include="img\home_20px.png" />
+    <None Include="img\macos_close_30px.png" />
+    <None Include="img\macos_minimize_30px.png" />
+    <None Include="img\macos_close_30px_1.png" />
+    <None Include="img\macos_minimize_30px_1.png" />
+    <Content Include="img\menu_50px.png" />
+    <Content Include="img\minimize%281%29.png" />
+    <Content Include="img\minimize.png" />
+    <None Include="img\new_copy_35px.png" />
+    <Content Include="img\order_history_30px.png" />
+    <Content Include="img\read_book_study_icon-icons.com_51077%281%29.ico" />
+    <Content Include="img\read_book_study_icon-icons.com_51077%281%29.png" />
+    <Content Include="img\read_book_study_icon-icons.com_51077.ico" />
+    <Content Include="img\read_book_study_icon-icons.com_51077.png" />
+    <None Include="img\refresh_40px.png" />
+    <None Include="img\settings_35px.png" />
+    <Content Include="img\Splash.jpg" />
+    <Content Include="img\Untitled-2.jpg" />
+    <Content Include="img\user_30px.png" />
+    <Content Include="img\user_75px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
