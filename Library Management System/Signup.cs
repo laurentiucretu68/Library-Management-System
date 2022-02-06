@@ -1,14 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Text;
 using System.Windows.Forms;
 using Oracle.ManagedDataAccess.Client;
 using System.Net;
 using System.Net.Mail;
-using System.Threading.Tasks;
 
 namespace Library_Management_System
 {

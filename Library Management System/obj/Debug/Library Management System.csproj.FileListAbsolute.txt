@@ -1,0 +1,85 @@
+C:\Users\laure\source\repos\Library Management System\Library Management System\obj\Debug\Library_Management_System.AdminPanel.resources
+C:\Users\laure\source\repos\Library Management System\Library Management System\obj\Debug\Library_Management_System.ForgotPassword.resources
+C:\Users\laure\source\repos\Library Management System\Library Management System\obj\Debug\Library_Management_System.Login.resources
+C:\Users\laure\source\repos\Library Management System\Library Management System\obj\Debug\Library_Management_System.Properties.Resources.resources
+C:\Users\laure\source\repos\Library Management System\Library Management System\obj\Debug\Library_Management_System.Signup.resources
+C:\Users\laure\source\repos\Library Management System\Library Management System\obj\Debug\Library_Management_System.UserControls.Admin_Home.resources
+C:\Users\laure\source\repos\Library Management System\Library Management System\obj\Debug\Library Management System.csproj.GenerateResource.cache
+C:\Users\laure\source\repos\Library Management System\Library Management System\obj\Debug\Library Management System.csproj.CoreCompileInputs.cache
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\Library Management System.exe.config
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\Library Management System.exe
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\Library Management System.pdb
+C:\Users\laure\source\repos\Library Management System\Library Management System\obj\Debug\Library Management System.exe
+C:\Users\laure\source\repos\Library Management System\Library Management System\obj\Debug\Library Management System.pdb
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\bunifuDataviz 1.0.1.dll
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\LiveCharts.dll
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\LiveCharts.pdb
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\LiveCharts.xml
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\laure\source\repos\Library Management System\Library Management System\obj\Debug\Library_Management_System.UserControls.Admin_Users.resources
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\PagedList.dll
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\PagedList.xml
+C:\Users\laure\source\repos\Library Management System\Library Management System\obj\Debug\Library_Management_System.UserControls.Admin_AllBooks.resources
+C:\Users\laure\source\repos\Library Management System\Library Management System\obj\Debug\Library_Management_System.UserControls.Admin_BorrowedBooks.resources
+C:\Users\laure\source\repos\Library Management System\Library Management System\obj\Debug\Library_Management_System.UserControls.Admin_Historic.resources
+C:\Users\laure\source\repos\Library Management System\Library Management System\obj\Debug\Library_Management_System.UserControls.Admin_Outstanding.resources
+C:\Users\laure\source\repos\Library Management System\Library Management System\obj\Debug\Library_Management_System.UserControls.Admin_Settings.resources
+C:\Users\laure\source\repos\Library Management System\Library Management System\obj\Debug\Library_Management_System.AdminUser.resources
+C:\Users\laure\source\repos\Library Management System\Library Management System\obj\Debug\Library Management System.csproj.CopyComplete
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\System.Buffers.dll
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\System.Memory.dll
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\System.Text.Json.dll
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\System.ValueTuple.dll
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\System.Buffers.xml
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\System.Memory.xml
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\System.Text.Json.xml
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\System.ValueTuple.xml
+C:\Users\laure\source\repos\Library Management System\Library Management System\obj\Debug\Library_Management_System.StartApp.resources
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\ProgressBar.dll
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\ProgressBar.xml
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\CircularProgressBar.dll
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\WinFormAnimation.dll
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\CircularProgressBar.xml
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\MimeKit.dll
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\MimeKit.pdb
+C:\Users\laure\source\repos\Library Management System\Library Management System\bin\Debug\MimeKit.xml
+C:\Users\laure\source\repos\Library Management System\Library Management System\obj\Debug\Library_Management_System.EditForms.EditAutori.resources
+C:\Users\laure\source\repos\Library Management System\Library Management System\obj\Debug\Library_Management_System.EditForms.EditCititori.resources
+C:\Users\laure\source\repos\Library Management System\Library Management System\obj\Debug\Library_Management_System.EditForms.EditRecenzori.resources
+C:\Users\laure\source\repos\Library Management System\Library Management System\obj\Debug\Library_Management_System.EditForms.EditFurnizori.resources
+C:\Users\laure\source\repos\Library Management System\Library Management System\obj\Debug\Library_Management_System.EditForms.EditCategorii.resources
+C:\Users\laure\source\repos\Library Management System\Library Management System\obj\Debug\Library_Management_System.EditForms.EditEdituri.resources
+C:\Users\laure\source\repos\Library Management System\Library Management System\obj\Debug\Library_Management_System.EditForms.EditCarti.resources
+C:\Users\laure\source\repos\Library Management System\Library Management System\obj\Debug\Library_Management_System.EditForms.EditImprumut.resources
+C:\Users\laure\source\repos\Library Management System\Library Management System\obj\Debug\Library_Management_System.EditForms.EditRecenzie.resources
+C:\Users\laure\source\repos\Library Management System\Library Management System\obj\Debug\Library_Management_System.EditForms.EditScrie.resources
+C:\Users\laure\source\repos\Library Management System\Library Management System\obj\Debug\Library_Management_System.AddBook.resources
+C:\Users\laure\source\repos\Library Management System\Library Management System\obj\Debug\Library_Management_System.AddForms.AddEditura.resources
+C:\Users\laure\source\repos\Library Management System\Library Management System\obj\Debug\Library_Management_System.AddForms.AddAutor.resources
+C:\Users\laure\source\repos\Library Management System\Library Management System\obj\Debug\Library_Management_System.AddForms.AddCategorie.resources
+C:\Users\laure\source\repos\Library Management System\Library Management System\obj\Debug\Library_Management_System.AddForms.AddFurnizor.resources
+C:\Users\laure\source\repos\Library Management System\Library Management System\obj\Debug\Library_Management_System.UserControls.User_AllBooks.resources
+C:\Users\laure\source\repos\Library Management System\Library Management System\obj\Debug\Library_Management_System.UserControls.User_BorrowedBooks.resources
+C:\Users\laure\source\repos\Library Management System\Library Management System\obj\Debug\Library_Management_System.UserControls.User_Home.resources
+C:\Users\laure\source\repos\Library Management System\Library Management System\obj\Debug\Library_Management_System.UserControls.Admin_Providers.resources

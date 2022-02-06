@@ -47,6 +47,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>read_book_study_icon-icons.com_51077%281%29.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="BouncyCastle.Crypto, Version=1.9.0.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
       <HintPath>..\packages\Portable.BouncyCastle.1.9.0\lib\net40\BouncyCastle.Crypto.dll</HintPath>
@@ -459,6 +462,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="img\add_database_40px.png" />
+    <Content Include="read_book_study_icon-icons.com_51077%281%29.ico" />
     <None Include="img\add_male_user_40px.png" />
     <Content Include="img\add_user_male_40px.png" />
     <Content Include="img\book%281%29.png" />

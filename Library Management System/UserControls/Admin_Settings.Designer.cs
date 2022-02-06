@@ -32,6 +32,7 @@ namespace Library_Management_System.UserControls
             this.panel3 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.idCititor = new System.Windows.Forms.Label();
             this.data_nasterii = new ns1.BunifuDatepicker();
             this.label8 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -46,7 +47,6 @@ namespace Library_Management_System.UserControls
             this.nume = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.idCititor = new System.Windows.Forms.Label();
             this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -89,6 +89,16 @@ namespace Library_Management_System.UserControls
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(1250, 740);
             this.panel4.TabIndex = 14;
+            // 
+            // idCititor
+            // 
+            this.idCititor.AutoSize = true;
+            this.idCititor.Location = new System.Drawing.Point(281, 175);
+            this.idCititor.Name = "idCititor";
+            this.idCititor.Size = new System.Drawing.Size(21, 23);
+            this.idCititor.TabIndex = 39;
+            this.idCititor.Text = "1";
+            this.idCititor.Visible = false;
             // 
             // data_nasterii
             // 
@@ -262,16 +272,6 @@ namespace Library_Management_System.UserControls
             this.panel1.Size = new System.Drawing.Size(1270, 20);
             this.panel1.TabIndex = 10;
             // 
-            // idCititor
-            // 
-            this.idCititor.AutoSize = true;
-            this.idCititor.Location = new System.Drawing.Point(281, 175);
-            this.idCititor.Name = "idCititor";
-            this.idCititor.Size = new System.Drawing.Size(21, 23);
-            this.idCititor.TabIndex = 39;
-            this.idCititor.Text = "1";
-            this.idCititor.Visible = false;
-            // 
             // Admin_Settings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 23F);
@@ -285,7 +285,6 @@ namespace Library_Management_System.UserControls
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Admin_Settings";
             this.Size = new System.Drawing.Size(1270, 760);
-            this.Load += new System.EventHandler(this.Admin_Settings_Load);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.ResumeLayout(false);

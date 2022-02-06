@@ -243,7 +243,7 @@ namespace Library_Management_System.EditForms
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 19.8F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(42)))), ((int)(((byte)(109)))));
-            this.label2.Location = new System.Drawing.Point(298, 216);
+            this.label2.Location = new System.Drawing.Point(294, 218);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(218, 39);
             this.label2.TabIndex = 45;
@@ -252,7 +252,7 @@ namespace Library_Management_System.EditForms
             // pictureBox4
             // 
             this.pictureBox4.Image = global::Library_Management_System.Properties.Resources.book_reading_120px;
-            this.pictureBox4.Location = new System.Drawing.Point(339, 86);
+            this.pictureBox4.Location = new System.Drawing.Point(335, 88);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(120, 120);

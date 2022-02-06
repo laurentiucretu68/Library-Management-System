@@ -1,19 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using Oracle.ManagedDataAccess.Client;
 
 namespace Library_Management_System
 {
     public partial class StartApp : Form
     {
         public const string connectionString = @"DATA SOURCE = localhost:1521/orcl; PERSIST SECURITY INFO=True; USER ID = biblioteca; password=bibliotecapa55; Pooling = False;";
+        ///public const string connectionString = @"DATA SOURCE = 193.226.51.37:1521/o11g; PERSIST SECURITY INFO=True; USER ID = laurentiucretu; password=laurentiu#15; Pooling = False;";
         public StartApp()
         {
             InitializeComponent();

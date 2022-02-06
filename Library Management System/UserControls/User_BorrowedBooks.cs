@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using Oracle.ManagedDataAccess.Client;
 
@@ -67,11 +61,6 @@ namespace Library_Management_System.UserControls
                                                     where imp.id_cititor='{0}' order by data_imprumut desc", idCititor.Text.ToString());
             }
             updateData(commandString);
-        }
-
-        private void User_BorrowedBooks_Load(object sender, EventArgs e)
-        {
-            
         }
     }
 }

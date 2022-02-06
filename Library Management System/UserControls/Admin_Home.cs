@@ -2,13 +2,6 @@
 using LiveCharts;
 using LiveCharts.Wpf;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Media;
 using System.Globalization;
@@ -178,11 +171,6 @@ namespace Library_Management_System.UserControls
                 }
             }
 
-        }
-
-        private void Admin_Home_Load(object sender, EventArgs e)
-        {
-            
         }
     }
 }

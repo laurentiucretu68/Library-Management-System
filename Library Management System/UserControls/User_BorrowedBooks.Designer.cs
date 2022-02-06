@@ -34,12 +34,12 @@ namespace Library_Management_System.UserControls
             this.continutTab = new ns1.BunifuCustomDataGrid();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.idCititor = new System.Windows.Forms.Label();
             this.search = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.idCititor = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.continutTab)).BeginInit();
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -98,6 +98,16 @@ namespace Library_Management_System.UserControls
             this.panel5.Size = new System.Drawing.Size(1230, 82);
             this.panel5.TabIndex = 11;
             // 
+            // idCititor
+            // 
+            this.idCititor.AutoSize = true;
+            this.idCititor.Location = new System.Drawing.Point(605, 30);
+            this.idCititor.Name = "idCititor";
+            this.idCititor.Size = new System.Drawing.Size(21, 23);
+            this.idCititor.TabIndex = 40;
+            this.idCititor.Text = "1";
+            this.idCititor.Visible = false;
+            // 
             // search
             // 
             this.search.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -144,16 +154,6 @@ namespace Library_Management_System.UserControls
             this.panel2.Size = new System.Drawing.Size(20, 760);
             this.panel2.TabIndex = 16;
             // 
-            // idCititor
-            // 
-            this.idCititor.AutoSize = true;
-            this.idCititor.Location = new System.Drawing.Point(605, 30);
-            this.idCititor.Name = "idCititor";
-            this.idCititor.Size = new System.Drawing.Size(21, 23);
-            this.idCititor.TabIndex = 40;
-            this.idCititor.Text = "1";
-            this.idCititor.Visible = false;
-            // 
             // User_BorrowedBooks
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 23F);
@@ -166,7 +166,6 @@ namespace Library_Management_System.UserControls
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "User_BorrowedBooks";
             this.Size = new System.Drawing.Size(1270, 760);
-            this.Load += new System.EventHandler(this.User_BorrowedBooks_Load);
             ((System.ComponentModel.ISupportInitialize)(this.continutTab)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel5.ResumeLayout(false);

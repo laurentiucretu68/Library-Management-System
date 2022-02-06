@@ -366,7 +366,6 @@ namespace Library_Management_System.UserControls
             this.Font = new System.Drawing.Font("Century Gothic", 12F);
             this.Name = "Admin_Home";
             this.Size = new System.Drawing.Size(1270, 760);
-            this.Load += new System.EventHandler(this.Admin_Home_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
